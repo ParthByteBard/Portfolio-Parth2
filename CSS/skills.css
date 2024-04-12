@@ -1,0 +1,67 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 25px;
+  padding-left: 100px;
+}
+
+
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+  width: 300px;
+  box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.7);
+  transition: transform 0.3s ease;
+  background-color: rgb(0, 12, 49);
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+
+
+
+.skill-container:hover {
+  transform: scale(1.05);
+}
+
+
+.logoskills {
+  width: 200px;
+  border-radius: 10px;
+  height: 170px;
+}
+
+.title {
+  color: gold;
+  font-weight: bold;
+  font-family: Reddit Mono;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.Heading {
+  display: flex;
+  font-size: 70px;
+  color: white;
+  font-family: Reddit Mono;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-right: 200px;
+  padding-left: 200px;
+
+}
+
+.top-nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info-container {
+  margin-top: 20px;
+}

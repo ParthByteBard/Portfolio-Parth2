@@ -1,0 +1,16 @@
+body {
+  font-family: Reddit Mono;
+  color: gold;
+  margin: 0px;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+html,
+body {
+  scroll-behavior: smooth;
+}
