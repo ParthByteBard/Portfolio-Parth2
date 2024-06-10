@@ -144,6 +144,12 @@ html {
   transform: scale(0.97);
 }
 
+.title-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 440px;
+}
+
 @media(max-width: 790px) {
   .wrapper .center-line {
     left: 40px;
@@ -190,7 +196,6 @@ html {
   font-weight: bold;
   font-size: 70px;
   justify-content: center;
-  margin-left: 300px;
 }
 
 .Top-buttons {
@@ -228,4 +233,80 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media(max-width: 1245px) {
+
+  .button-container-timeline {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media(orientation:portrait) {
+
+  .button-container-timeline {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+  }
+
+  .title_education {
+    display: flex;
+    color: gold;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+
+  }
+
+  .Top-buttons {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: gold;
+    /* Blue color */
+    color: black;
+    font-weight: bold;
+    /* White text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    /* Add some margin for spacing */
+    font-size: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    background-image: linear-gradient(to right, gold, darkgoldenrod);
+    box-shadow: 0px 0px 8px rgba(gold, 0.3);
+  }
+
+  /* Hover effect */
+  .Top-buttons:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(172, 147, 0);
+    box-shadow: 0px 0px 8px rgba(gold, 0.7);
+    /* Darker shade of blue on hover */
+  }
+
+  .button-container-timeline {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+  }
+
 }

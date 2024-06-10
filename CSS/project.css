@@ -227,3 +227,36 @@ a {
   flex: 1;
   justify-content: center;
 }
+
+
+@media screen and (orientation: portrait) {
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+  }
+
+  .top-row-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+
+  .page-title {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 0px;
+    /* Allows the title to take up remaining space */
+    /* Centers the text horizontally */
+  }
+
+
+
+}
